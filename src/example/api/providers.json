@@ -1,0 +1,17 @@
+{
+    "_links": {
+        "self": {
+            "href": "/src/example/api/providers.json"
+        }
+    },
+    "content": [
+        {
+            "id": "google",
+            "name": "Google"
+        },
+        {
+            "id": "microsoft",
+            "name": "Microsoft"
+        }
+    ]
+}

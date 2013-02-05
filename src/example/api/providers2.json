@@ -1,0 +1,17 @@
+{
+    "_links": {
+        "self": {
+            "href": "/src/example/api/providers2.json"
+        }
+    },
+    "content": [
+        {
+            "id": "cisco",
+            "name": "Cisco"
+        },
+        {
+            "id": "apple",
+            "name": "Apple"
+        }
+    ]
+}

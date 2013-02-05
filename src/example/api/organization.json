@@ -1,0 +1,10 @@
+{
+    "_links": {
+        "self": {
+            "href": "/src/example/api/organization.json"
+        },
+        "providers": {
+            "href": "/src/example/api/providers.json"
+        }
+    }
+}

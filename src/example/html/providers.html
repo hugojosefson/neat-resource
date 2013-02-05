@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="providers" ng-controller="ProvidersController">
+
+<head lang="en">
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.js"></script>
+    <script src="../../lib/js/deferred-with-update.js"></script>
+    <script src="../../main/js/neat-resource.js"></script>
+    <script src="../js/providers.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <h1>{{title}}</h1>
+    <button ng-click="reloadOrganization()">Reload ORGANIZATION</button>
+    <hr>
+    <div class="alert alert-error" ng-show="error">
+        <pre>{{error | json}}</pre>
+    </div>
+    <table class="table" ng-show="PROVIDERS.data.content.length">
+        <thead>
+        <th>ID</th>
+        <th>Name</th>
+        </thead>
+        <tbody>
+        <tr ng-repeat="provider in PROVIDERS.data.content">
+            <td>{{provider.id}}</td>
+            <td>{{provider.name}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+
+</html>
