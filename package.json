@@ -1,0 +1,19 @@
+{
+  "name": "neat-resource",
+  "version": "0.0.1",
+  "description": "Neat Resource implementation for AngularJS.",
+  "main": "src/main/js/neat-resource.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:/hugojosefson/neat-resource"
+  },
+  "keywords": [
+    "angularjs",
+    "resource"
+  ],
+  "author": "Hugo Josefson <hugo@josefson.org>",
+  "license": "MIT"
+}
