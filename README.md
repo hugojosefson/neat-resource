@@ -26,5 +26,5 @@ Perhaps:
 
   [recommended-way-of-getting-data-from-the-server]: http://stackoverflow.com/questions/11850025/recommended-way-of-getting-data-from-the-server#answer-11850027
   [DeferredWithUpdate]: http://www.bennadel.com/blog/2431-Resolving-An-AngularJS-Deferred-Object-Twice-With-DeferredWithUpdate-js.htm#primary-content-container
-  [Backbone Model]: http://documentcloud.github.com/backbone/docs/backbone.html#section-65
+  [Backbone Model]: http://documentcloud.github.com/backbone/docs/backbone.html#section-66
 
